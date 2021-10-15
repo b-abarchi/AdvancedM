@@ -1,0 +1,28 @@
+BorderPane {
+	-fx-background-color: #E9E9EB;
+}
+
+.top {
+	-fx-background-color: #E8D8D2;
+}
+
+.btn {
+	-fx-pref-width: 110px;
+	-fx-pref-height: 20px;
+	-fx-background-color: #E8D8D2;
+	-fx-text-fill: #000;
+	-fx-background-radius: 10px 20px;
+	-fx-border-radius: 10px 20px;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.btn-back {
+	-fx-background-color: #E8D8D2;
+	-fx-font-size: 15px;
+}
+
+.btn-back:hover {
+	-fx-background-color: #fff;
+	-fx-text-fill: #E8D8D2;
+}

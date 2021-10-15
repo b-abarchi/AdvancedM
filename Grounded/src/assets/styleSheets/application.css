@@ -1,0 +1,65 @@
+BorderPane {
+	-fx-background-color: #71C4C2;
+	-fx-background-image: url("../images/background.jpg");
+	-fx-background-repeat: no-repeat;
+}
+
+.top {
+	-fx-background-color: #E8D8D2;
+}
+
+.btn {
+	-fx-pref-width: 110px;
+	-fx-pref-height: 20px;
+	-fx-background-color: #E8D8D2;
+	-fx-text-fill: #000;
+	-fx-background-radius: 10px 20px;
+	-fx-border-radius: 10px 20px;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+}
+
+.btn:hover,
+.btn-back:hover {
+	-fx-background-color: #fff;
+	-fx-text-fill: #E8D8D2;
+}
+
+.rbtn {
+	-fx-font-size: 18px;
+	-fx-text-fill: #000;
+	-fx-font-weight: bold;
+}
+
+.btn-back {
+	-fx-background-color: #E8D8D2;
+	-fx-font-size: 15px;
+}
+
+.navbar {
+	-fx-background-color: #E8D8D2;
+}
+
+.txt-msg {
+	-fx-border-color: #E8D8D2;
+}
+
+TextArea {
+	-fx-font-size: 24px;
+}
+
+
+Hyperlink {
+	-fx-pref-width: 250px;
+	-fx-pref-height: 20px;
+	-fx-text-fill: #000;
+	-fx-background-radius: 10px 20px;
+	-fx-border-radius: 10px 20px;
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-underline: false;
+}
+
+Hyperlink:hover {
+	-fx-text-decoration: none;
+}

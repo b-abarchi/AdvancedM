@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" styleClass="center-pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GroundingListController">
+	<RadioButton layoutX="600.0" layoutY="125.0" mnemonicParsing="false" selected="true" styleClass="rbtn" text="5-4-3-2-1">
+           <toggleGroup>
+              <ToggleGroup fx:id="grounding" />
+           </toggleGroup>
+		</RadioButton>
+		<RadioButton layoutX="600.0" layoutY="155.0" mnemonicParsing="false" styleClass="rbtn" text="Categories" toggleGroup="$grounding" />
+		<RadioButton layoutX="600.0" layoutY="185.0" mnemonicParsing="false" styleClass="rbtn" text="Awareness" toggleGroup="$grounding" />
+		<RadioButton layoutX="600.0" layoutY="215.0" mnemonicParsing="false" styleClass="rbtn" text="Mental Health" toggleGroup="$grounding" />
+		
+		<Button fx:id="groundingSelection" layoutX="460.0" layoutY="250.0" mnemonicParsing="false" onAction="#startGrounding" styleClass="btn" text="GO">
+            <font>
+               <Font size="24.0" />
+            </font>
+        </Button>
+   <Button layoutX="20.0" layoutY="550.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" styleClass="btn-back" onAction="#goBack" text="Go Back" />
+</AnchorPane>

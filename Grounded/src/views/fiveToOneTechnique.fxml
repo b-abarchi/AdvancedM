@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" styleClass="center-pane" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GroundingListController">
+   <children>
+      <TextArea fx:id="txtMsg" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="380.0" prefWidth="973.0" style="-fx-background-color: #E8D8D2;" styleClass="txt-msg" />
+      <Button layoutX="450.0" layoutY="450.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="46.0" prefWidth="87.0" styleClass="btn" text="Back" />
+   </children>
+</AnchorPane>
